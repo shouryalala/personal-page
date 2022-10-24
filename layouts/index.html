@@ -1,10 +1,5 @@
 {{ define "main" }}
 
-<div class="container">
-</br>
-</br>
-</br>
-</div>
 
 <!-- featured post -->
 <!--
@@ -44,7 +39,7 @@
 <!-- /featured post -->
 
 <!-- recent post -->
-<section>
+<!-- <section>
   <div class="container">
     <div class="row">
       {{ range first 3 (where .Site.RegularPages "Type" "post")}}
@@ -69,18 +64,18 @@
       {{ end }}
     </div>
   </div>
-</section>
+</section> -->
 <!-- /recent post -->
 
 <!-- blog post -->
-<section class="section pb-0">
+<section class="section pb-0 py-4">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
+      <div class="col-lg-12 mb-5 mb-lg-0">
         <div class="row">
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
           {{ range $paginator.Pages }}
-          <div class="col-md-6 mb-4">
+          <a href="{{ .Permalink }}"><div class="col-md-4 mb-4">
             <article class="card">
               {{ if .Params.Image }}
               <img src="{{ .Params.Image | absURL }}" class="card-img-top" alt="{{ .Title | markdownify }}">
@@ -92,17 +87,14 @@
                 {{ end }}
                 <a href="{{ .Permalink }}" class="h5 d-block my-3">{{ .Title | markdownify }}</a>
                 <div class="mb-3 post-meta">
-                  <span>By {{ .Site.Params.Author }}</span>
-                  {{ if not .Params.HideDate }}
-                  <span class="border-bottom border-primary px-2 mx-1"></span>
+                  <span class="border-primary"></span>
                   <span>{{ .PublishDate.Format "02 January 2006" }}</span>
-                  {{ end }}
                 </div>
                 <p class="card-text">{{ .Summary }}</p>
-                <a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a>
+                <!-- <a href="{{ .Permalink }}" class="btn btn-outline-primary">read more</a> -->
               </div>
             </article>
-          </div>
+          </div></a>
           {{ end }}
         </div>
       </div>
