@@ -79,13 +79,13 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "349509387"
 # Contact Information
 mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+email = "shouryalala@gmail.com"
+location = "+91"
 # copyright
-copyright = "| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/) All Rights Reserved |"
+copyright = "| copyright &copy; 2023 All Rights Reserved |"
 
 # Preloader
 [params.preloader]
