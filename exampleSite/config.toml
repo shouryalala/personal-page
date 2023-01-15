@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://demo.gethugothemes.com/liva/examplesite/"
 languageCode = "en-us"
-title = "Liva | Personal blog template"
+title = "Shourya Lala"
 theme = "personal-page"
 summaryLength = "10"
 paginate = 6
