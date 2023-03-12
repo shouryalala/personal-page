@@ -4,7 +4,7 @@ date: 2021-10-29T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "images/featured-post/post-3.jpg"
+image: "images/featured-post/periferi.png"
 
 # meta description
 description: "Computer Vision powered Retail Invoicing"
@@ -49,7 +49,7 @@ A CV model trained on various FMCG products with a client facing app posing as a
 - Model can be trained and refined on different verticals based on categories of items sold. This will improve accuracy and keep manual intervention to a minimum 
 - If core solution is accepted, this can further foray into becoming a SaaS, linked to other stakeholders like distributors or brands, extending this service into automated invetory fulfillment, store offers, credit-line etc.  
 
-![image](../../images/post/retail-pos.gif)
+![image](../../images/post/retail_pos.gif)
 
 #### Notes/Caveats
 - Requires the model accuracy to be strong and needs to be accomodative to new items being added to it

@@ -9,6 +9,8 @@ image: "images/featured-post/post-2.jpg"
 # meta description
 description: "this is meta description"
 
+summary: "This is the summary for Retail POS"
+
 # taxonomies
 categories: 
   - "HTML & CSS"
