@@ -1,13 +1,12 @@
-name = "Liva Hugo"
-license = "MIT"
-licenselink = "https://github.com/gethugothemes/liva-hugo/blob/master/LICENSE"
-description = "Liva is a personal blog theme powered by Hugo."
-homepage = "https://gethugothemes.com/products/liva-hugo/"
-demosite = "https://demo.gethugothemes.com/liva"
-tags = ['landing-page', 'fast', 'light', 'white', 'modern', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'creative', 'contact-form', 'custom-themes', 'mobile', 'minimalistic', 'gethugothemes', 'resume', 'portfolio', 'google analytics', 'customizable', 'flexbox', 'presentation', 'product', 'theme', 'typography']
+name = "Shourya Lala"
+license = "BSD"
+licenselink = "https://github.com/shouryalala/personal-page/blob/master/LICENSE"
+description = "Personal page - Shourya Lala"
+homepage = "https://shourya.io"
+tags = ['shourya', 'lala', 'fast', 'light', 'modern', 'blog', 'technology', 'engineering', 'bootstrap', 'product', 'responsive', 'clean', 'simple', 'creative', 'aws', 'tutorials', 'mobile', 'minimalistic', 'library', 'ideas', 'portfolio', 'solutions', 'quick-read', 'presentation', 'product', 'typography']
 features = ['bootstrap','responsive']
-min_version = "0.58.0"
+min_version = "0.1.0"
 
 [author]
-  name = "Gethugothemes"
-  homepage = "https://gethugothemes.com/"
+  name = "Shourya Lala"
+  homepage = "https://shourya.io"

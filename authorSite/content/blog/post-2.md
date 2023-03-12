@@ -41,10 +41,17 @@ Strong emphasis, aka bold, with **asterisks** or __underscores__.
 Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
-
+scratch now
 <hr>
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/18KdjmLiKEuNuJaiI9QyWp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+notice this
 ##### Link
+
+<iframe src="https://www.example.com/" width="100%" height="300"></iframe>
+
+
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
