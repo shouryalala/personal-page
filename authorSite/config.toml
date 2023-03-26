@@ -46,7 +46,7 @@ URL = "plugins/search/search.js"
 # main menu
 [[menu.main]]
 name = "About"
-URL = "about/"
+URL = "/"
 weight = 1
 
 [[menu.main]]
@@ -62,7 +62,7 @@ weight = 3
 # footer menu
 [[menu.footer]]
 name = "About"
-URL = "about/"
+URL = "/"
 weight = 1
 
 [[menu.footer]]
