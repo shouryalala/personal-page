@@ -5,7 +5,7 @@ title = "Shourya Lala"
 theme = "personal-page"
 summaryLength = "10"
 paginate = 6
-disqusShortname = ""
+disqusShortname = "Shourya"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
