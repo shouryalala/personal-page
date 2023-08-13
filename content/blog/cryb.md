@@ -4,7 +4,7 @@ date: 2021-10-28T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "images/featured-post/cryb.png"
+image: "images/featured-post/cryb.webp"
 
 # meta description
 description: "Hyperlocal Home Assistance"
