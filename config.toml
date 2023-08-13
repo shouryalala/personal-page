@@ -113,12 +113,12 @@ expire_days = 2
 [[params.social]]
 title = "twitter"
 icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/atshourya"
 
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://github.com/shouryalala"
 
 [[params.social]]
 title = "linkedin"
