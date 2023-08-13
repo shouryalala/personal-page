@@ -2,7 +2,7 @@
 baseURL = "https://shourya.io/"
 languageCode = "en-us"
 title = "Shourya Lala"
-theme = "liva-hugo"
+theme = "terminal"
 summaryLength = "10"
 paginate = 6
 disqusShortname = "Shourya"
