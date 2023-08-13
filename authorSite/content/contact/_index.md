@@ -28,10 +28,12 @@ categories:
   - "The gene an inanimate history"
   - "Khuruzao - book about robot emotional assistant"
   - "IMP - Shoe dog- nike"
+  - "The Dream Machine — M. Mitchell Waldrop"
   - "Lean startup"
   - "Made to Stick: Why Some Ideas Survive and Others Die — Chip Heath"
   - "Zero to one Peter thiel"
   - "Guy Kawasaki book"
+  - "Surely You're Joking, Mr. Feynman! — Richard Feynman"
   - "Founders at Work: Stories of Startups' Early Days — Jessica Livingston"
   - "Everything store "
 
@@ -39,4 +41,4 @@ categories:
 type : "contact"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no seadsfds
+I am not a book worm. But I love consuming information. These are a few note-worthy titles that had a lasting impact on me. About 40% of the titles here were consumer as AudioBooks. There are also many interesting links here dslfdshl
