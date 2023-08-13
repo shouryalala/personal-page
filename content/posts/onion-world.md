@@ -11,8 +11,7 @@ description: "this is meta description"
 
 # taxonomies
 categories:
-  - "Story"
-  - "Future"
+  - "Sci-fi"
 tags:
   - "Photos"
   - "Game"

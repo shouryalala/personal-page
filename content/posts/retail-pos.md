@@ -11,7 +11,7 @@ description: "Computer Vision powered Retail Invoicing"
 
 # taxonomies
 categories:
-  - "Idea"
+  - "Product"
 tags:
   - "Computer Vision"
   - "Idea"

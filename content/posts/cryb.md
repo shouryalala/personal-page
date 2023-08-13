@@ -11,7 +11,7 @@ description: "Hyperlocal Home Assistance"
 
 # taxonomies
 categories:
-  - "Android And Gaming"
+  - "Product"
 tags:
   - "Photos"
   - "Game"
