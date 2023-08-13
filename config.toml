@@ -2,7 +2,7 @@
 baseURL = "https://shourya.io/shourya/personal-page/"
 languageCode = "en-us"
 title = "Shourya Lala"
-theme = "oompa"
+theme = "blog-page"
 summaryLength = "10"
 paginate = 6
 disqusShortname = "Shourya"

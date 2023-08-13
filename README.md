@@ -10,11 +10,8 @@
 # clone the repository
 git clone https://github.com/shouryalala/personal-page.git
 
-# cd in the project directory
-$ cd personal-page/authorSite/
-
 # Start local dev server
-$ hugo server --themesDir ../..
+$ hugo server
 ```
 
 ## Result
