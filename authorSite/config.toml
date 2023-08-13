@@ -1,8 +1,8 @@
 ######################## default configuration ####################
-baseURL = "https://shourya.io/"
+baseURL = "https://shourya.io/shourya/personal-page/"
 languageCode = "en-us"
 title = "Shourya Lala"
-theme = "terminal"
+theme = "oompa"
 summaryLength = "10"
 paginate = 6
 disqusShortname = "Shourya"
