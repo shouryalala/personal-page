@@ -13,7 +13,7 @@
           <ul class="navbar-nav mr-auto">
             {{ range .Site.Params.social }}
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
+              <a class="nav-link" target="_blank" href="{{ .link | safeURL }}" onclick="gtag('event', 'link_click', { 'event_category': 'Link Clicks', 'event_label': '{{ .title }}' });"><i class="{{ .icon }}"></i></a>
             </li>
             {{ end }}
           </ul>
