@@ -4,59 +4,72 @@ date: 2021-10-28T10:07:47+06:00
 draft: false
 
 # post thumb
-image: "images/featured-post/cryb.webp"
+image: "images/featured-post/cryb-banner.webp"
 
 # meta description
-description: "Hyperlocal Home Assistance"
+description: "Hyperlocal Home Assistance by empowering the overlooked"
 
 # taxonomies
 categories:
   - "Product"
 tags:
-  - "Photos"
-  - "Game"
-  - "React"
-  - "Python"
-  - "New"
+  - "Firebase"
+  - "Node.js"
+  - "Java"
+  - "Dart"
+  - "Hyperlocal"
 
 # post type
 type: "featured"
 ---
-Location based social networking
+Hyperlocal Home Assistance by empowering the overlooked
 
-- Jim is a lateral entry to a new college, doesnt know anyone and is eager to make new friends and connections.
-- Sanket is a resident living close to a beautiful heritage site and wants to showcase insightful information and pictures to relevant tourists passing by.
-- Alina goes to a nearby community centre and wants to know more about the events that are being organised today.
-- Tushar's family is affected by COVID and would like to find out which of his local hospitals currently has oxygen cylinders available.
+*An app based, on demand solution for providing reliable home assistance for a diverse range of requirements, with a focus on diligence, creating trust amongst users and empowering assistants.*
 
-Although attempted several times in the past, there are compelling upsides to the formation of online location based communities. 
+The core idea was to build an incredibly capable interface for engaging with an illiterate target audience. This would allow us to unlock more gig opportunities for this audience using technology, thereby driving more income.
 
+### Background:
+- 4/5 metropolitan households rely on domestic help for daily household chores such as home cleaning, cooking, odd chores etc
+- There are over 50 million domestic help workers in India. Most of them women. Most of them uneducated.
+- The entire demand and supply exists on an informal economy with no structure for sourcing, vetting, or payments.
+- There is a distinct sense of dis-satisfaction on both sides - residential customers living in societies and gig workers who are averse to technology.
 
-Primary features of this network:
-- geographic units: anyone presently in that geographic perimeter has access to the entire feed. ![[walkthrough-a.gif]]
+### CRYB - Core Offering:
+1. Simple vernacular UI for assistants who have a basic grasp of language.
+2. Voice first - each text element had text to speech.
+3. Built as an app for Android OS and KaiOS (lightweight OS used by $20 JioPhones).
+4. Also supported a conversational interface via dynamic IVR - Assistants could use a simple T9 non-smartphone and call a number and press digits to engage in their local language.
 
-![image](../../images/post/walkthrough-a.gif)
+### More features:
+- Schedule management based on ongoing and upcoming work, location, and availability.
+- Full screen overlay over lock screen to drive ease of use - Reminder of upcoming work or a new job request would wake up the entire phone and put yes/no actions in front.
+- Dynamic request relaying - If a job request goes unanswered after multiple tries, the request gets forwarded to the next eligible assistant in real-time without customer hassle (similar to Uber searching for drivers)
+- Automatically raises volume if accidentally muted. Automatically alerts about phone low battery. Automatically alerts about phone internet recharge or no connection. Offline reminder mechanism even if internet not available. (These were added keeping the target audience in mind)
+- Rating mechanism, job history, payment history and income statement and such. 
 
--  Community generated: The 'periferis' or the perimeters of each community is decided based on how many upvotes a certain user request receives and whether a periferi already exists. 
-	- eg: A new periferi request is created by Ashwin for a periferi around his Hostel Block. If no significatly overlapping periferi already exists and more than 100 people approve the request, the periferi gets created.![[walkthrough-c.gif]]
+<!-- ![MVP Screenshots](../../images/post/cryb-asset-1.webp) -->
 
-![image](../../images/post/walkthrough-c.gif)
+### Expected outcome:
+- Assistants no longer have to solely rely on word of mouth to find new jobs.
+- Residents can leverage this added ease of requesting for help to get even more done.. eg: help with guests coming over in the evening.
+- Adhoc requests would mean that assistants can earn more income by utilising their idle time much more effectively.
+- Resident feedbacks, on-time presence, ratings, past work history etc will drive accountability and deter abrupt loss of job.
+- Standardisation in service would mean consistent pricing and better income. 
 
-- Recognized periferis: Periferis/networks for a town/state/city/recognised establishments will already be available. If you are in multiple periferis based on your location, an intuitive pinch out/pinch in motion will land you in the periferi of your choice.
+### Execution:
+* This product could act as a seamless plug-in for companies currently active in urban household service provider domain. This includes startups in the gated community management business or companies providing skilled labour for hire or even hyperlocal e-commerce.
+* Go-to-market as a standalone product also has advantages as societies act as small demarcated units with their own pool of assistants and hundreds of residents. This allows focussed marketing and agile scaling.
+* As this augments an existing service, demand supply flywheel does not need to get created from scratch and can in fact, onboard the existing network and grow from there.
 
-![image](../../images/post/walkthrough-b.gif)
+### MVP/v0:
+![Tech Stack](../../images/post/cryb-asset-2.webp)
 
+A fairly extensive MVP was created with Java for the assistant client app and Node.js deployed on serverless Cloud Functions on the backend. A resident facing client app was also created using Flutter. The codebase for each exists here:
 
-This allows a user to decide the expanse of the information that they would like to consume and  how intimate they would like to be with their interactions. A user would interect differently with their local neighbourhood as compared to posting on a feed available to the entire country.
+- Code for the Assistant Client App: **https://github.com/shouryalala/kanta-maid-client-app**
+- Code for the Resident Client App: **https://github.com/shouryalala/ria_client_app**
+- Code for the Serverless backend: **https://github.com/shouryalala/ria-server**
+- Wannabe pitch deck: [Pitch Deck](https://docs.google.com/presentation/d/e/2PACX-1vS8S7T9MG4xInt_CD_3i6cSaBSh22D9mbCFrq2YzaFMj__qMSaRkUUfVMPkzmj2PW4oHYPTR_9NBm-m/pub?start=true&loop=false&delayms=2000)
+- A no-frills demo of the entire product: 
 
-This potentially leads to a very well-differentiated network. At a local level, it might be consumed as a ready-to-go group chat with neighbours. In a wider area, it might be consumed as a bulltein board for important information for that locality. At a further larger level, it might act as a community aggregated news platform delivering relevant ongoings and happenings in their city.
-
-This stands to be the core idea. A POC for this was built, and gained great reception at a college level. Can be expanded to have many more features and address many more important points at commercial scale:
-- a way to pin non-protected periferis so you can interect and view that feed even if you arent present there geogrphically.
-- A way for community selected moderators to control who can post in certain periferis.
-- Customised capabilities in certain periferis to certain actors: businesses, local authorities, and so on
-- The feed algorithm, privacy, sensitive content, and the other 1800 things that come up with building for the masses
-
-
-
-
+{{< youtube KgZ5oHvjgjE >}}
