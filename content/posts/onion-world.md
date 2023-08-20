@@ -6,18 +6,21 @@ draft: false
 # post thumb
 image: "images/featured-post/onion-world.webp"
 
-# meta description
-description: "this is meta description"
+# description
+description: "An alternate reality where creating civilisations is a git commit"
+
+# subtitle
+subtitle: "An alternate reality where creating civilisations is a git commit"
 
 # taxonomies
 categories:
   - "Sci-fi"
 tags:
-  - "Photos"
-  - "Game"
-  - "React"
-  - "Python"
-  - "New"
+  - "Story"
+  - "Sci-fi"
+  - "Universe"
+  - "Dystopian"
+  - "AI"
 
 # post type
 type: "featured"

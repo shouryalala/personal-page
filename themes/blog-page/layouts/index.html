@@ -46,11 +46,11 @@
                     <p class="text-primary">{{ . | title | humanize }}</p>
                           {{ end }}
                           <p class="h5 ">{{ .Title | markdownify }}</p>
+                  <p class="card-text">{{ .Params.subtitle }}</p>      
                   <div class="mb-3 post-meta">
                     <span class="border-primary"></span>
                     <span>{{ .PublishDate.Format "02 January 2006" }}</span>
                   </div>
-                  <p class="card-text">{{ .Summary }}</p>
                 </div>
               </div>
             </article>

@@ -1,13 +1,16 @@
 ---
 title: "CRYB"
-date: 2021-10-28T10:07:47+06:00
+date: 2019-03-20T10:07:47+06:00
 draft: false
 
 # post thumb
 image: "images/featured-post/cryb-banner.webp"
 
-# meta description
+# description
 description: "Hyperlocal Home Assistance by empowering the overlooked"
+
+#subtitle
+subtitle: "Hyperlocal Home Assistance by empowering the overlooked"
 
 # taxonomies
 categories:

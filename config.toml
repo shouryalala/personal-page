@@ -70,7 +70,7 @@ weight = 2
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "Personal blog of Shourya Lala"
 author = "Shourya"
 # Google Analitycs
 googleAnalitycsID = "G-2FWW948PYS"
