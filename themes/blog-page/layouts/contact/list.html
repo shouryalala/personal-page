@@ -20,6 +20,7 @@
         <div class="content mb-4">
           {{ range .Params.Categories }}
           {{ if in . "IMP" }}<div class="text-primary"><b>{{substr . 6| title | humanize }}</b></div>
+          {{ else if in . "LINK"}}<div class="text-primary"><a href="{{substr . 7}}" target="_blank">{{substr . 7 }}</a></div>
           {{ else }}<div class="text-primary">{{ . | title | humanize }}</div>
           {{ end }}
           {{ end }}
