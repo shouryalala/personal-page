@@ -14,7 +14,7 @@ subtitle: "Chaotic notes scribbled over the last 2 years"
 
 # taxonomies
 categories:
-  - "Product"
+  - "Startup"
 tags:
   - "Firebase"
   - "Node.js"
@@ -25,54 +25,76 @@ tags:
 # post type
 type: "featured"
 ---
-Hyperlocal Home Assistance by empowering the overlooked
 
-*An app based, on demand solution for providing reliable home assistance for a diverse range of requirements, with a focus on diligence, creating trust amongst users and empowering assistants.*
+Become information consuming machines. The amount of relevant insights and upskilling opportunities you are exposed to in the early days of starting up is extremely high.
 
-The core idea was to build an incredibly capable interface for engaging with an illiterate target audience. This would allow us to unlock more gig opportunities for this audience using technology, thereby driving more income.
+High development velocity without compromising on good coding standards is difficult but important.
 
-### Background:
-- 4/5 metropolitan households rely on domestic help for daily household chores such as home cleaning, cooking, odd chores etc
-- There are over 50 million domestic help workers in India. Most of them women. Most of them uneducated.
-- The entire demand and supply exists on an informal economy with no structure for sourcing, vetting, or payments.
-- There is a distinct sense of dis-satisfaction on both sides - residential customers living in societies and gig workers who are averse to technology.
+Measure worth based on output delivered. Time and effort spent is inconsequential. 
 
-### CRYB - Core Offering:
-1. Simple vernacular UI for assistants who have a basic grasp of language.
-2. Voice first - each text element had text to speech.
-3. Built as an app for Android OS and KaiOS (lightweight OS used by $20 JioPhones).
-4. Also supported a conversational interface via dynamic IVR - Assistants could use a simple T9 non-smartphone and call a number and press digits to engage in their local language.
+Your workflow is a constant tiff between Maker's schedule vs Manager's schedule - http://www.paulgraham.com/makersschedule.html.
 
-### More features:
-- Schedule management based on ongoing and upcoming work, location, and availability.
-- Full screen overlay over lock screen to drive ease of use - Reminder of upcoming work or a new job request would wake up the entire phone and put yes/no actions in front.
-- Dynamic request relaying - If a job request goes unanswered after multiple tries, the request gets forwarded to the next eligible assistant in real-time without customer hassle (similar to Uber searching for drivers)
-- Automatically raises volume if accidentally muted. Automatically alerts about phone low battery. Automatically alerts about phone internet recharge or no connection. Offline reminder mechanism even if internet not available. (These were added keeping the target audience in mind)
-- Rating mechanism, job history, payment history and income statement and such. 
+A good engineer is a function of their pace of development + level of optimisation. 
 
-<!-- ![MVP Screenshots](../../images/post/cryb-asset-1.webp) -->
+The number of people willing to provide unfiltered and exhaustive feedback to your product is usually always a positive surprise.
 
-### Expected outcome:
-- Assistants no longer have to solely rely on word of mouth to find new jobs.
-- Residents can leverage this added ease of requesting for help to get even more done.. eg: help with guests coming over in the evening.
-- Adhoc requests would mean that assistants can earn more income by utilising their idle time much more effectively.
-- Resident feedbacks, on-time presence, ratings, past work history etc will drive accountability and deter abrupt loss of job.
-- Standardisation in service would mean consistent pricing and better income. 
+Indirect feedback channels reveal strong patterns if received in volume. 
 
-### Execution:
-* This product could act as a seamless plug-in for companies currently active in urban household service provider domain. This includes startups in the gated community management business or companies providing skilled labour for hire or even hyperlocal e-commerce.
-* Go-to-market as a standalone product also has advantages as societies act as small demarcated units with their own pool of assistants and hundreds of residents. This allows focussed marketing and agile scaling.
-* As this augments an existing service, demand supply flywheel does not need to get created from scratch and can in fact, onboard the existing network and grow from there.
+If your product has multiple features that users would be unfamiliar with, segment those features based on a user's behaviour or reveal them progressively.
 
-### MVP/v0:
-![Tech Stack](../../images/post/cryb-asset-2.webp)
+Frequent life-threatening challenges and constant ups and downs feel difficult at first but you surely gain a level of mental immunity after sometime.
 
-A fairly extensive MVP was created with Java for the assistant client app and Node.js deployed on serverless Cloud Functions on the backend. A resident facing client app was also created using Flutter. The codebase for each exists here:
+"Over the years, I’ve come to see that the best programmer doesn’t add 10 times the value. He or she adds more like a 100 times." - Reed Hastings
+This is especially more relevant when the number of jumps to reaching the end-user are few. 
 
-- Code for the Assistant Client App: **https://github.com/shouryalala/kanta-maid-client-app**
-- Code for the Resident Client App: **https://github.com/shouryalala/ria_client_app**
-- Code for the Serverless backend: **https://github.com/shouryalala/ria-server**
-- Wannabe pitch deck: [Pitch Deck](https://docs.google.com/presentation/d/e/2PACX-1vS8S7T9MG4xInt_CD_3i6cSaBSh22D9mbCFrq2YzaFMj__qMSaRkUUfVMPkzmj2PW4oHYPTR_9NBm-m/pub?start=true&loop=false&delayms=2000)
-- A no-frills demo of the entire product: 
+There tends to be an unspoken distance between employer and employee.
 
-{{< youtube KgZ5oHvjgjE >}}
+A 40 hours work week is a part-time job.
+
+If you were a coder, continue to be a coder.
+
+Every founder is a de-facto product manager. Every founder is a de-facto seller.
+
+"Careers are dead. Every employee is an unrestricted free agent" - Mark Cuban
+
+It is extremely easy to get busy. It is important to spend time on the right busy.
+
+Major reason for your existence is your power to go faster than the incumbents.
+
+Be a good builder. Be a good seller.
+
+If hiring freshers, find individuals with an inherent passion for excellence in their vertical. The rest would lack a good work ethic.
+
+Mutual respect and fostering an ownership mentality drives throughput far more than micromanagement. 
+
+Gaining back momentum once lost is actually very difficult.
+
+Efficient sprints pre-emptively and pessimistically account for stakeholder timelines.
+
+"Make error free production deployments a foregone conclusion."
+
+Building culture is similar to building SEO. Doesnt show results immediately but helps compound your growth in the long term.
+
+Your moat should be built in-house. If you're selling a better looking experience as compared to existing players, then the product should be designed inhouse.  
+
+Your ad can only have one call-to-action. Choose wisely.
+
+Product and Distribution are yin and yang for a B2C. Equally tough. Equally important.
+
+Habit building products are wildly difficult to build retention for.
+
+Your tech stack is only as strong as your weakest third party plugin.
+
+An incomplete team is better than a team of low performers.
+
+Domain edge and conviction through numbers usually trumps silver tongue or emotional narratives while raising capital.
+
+Building pathways to reach the right audience/tools/investors are extremely important to grow faster. Accelerators and incubators that provide this edge are worth the equity to gain that leverage.
+
+Building in solitude rarely works out.
+
+At some point, you move from an idea/product to a company. Outlook should change accordingly.
+
+Market can be local but the tech should always be compared to a global standard.
+
+Effective compartmentalisation and ability to context switch will go miles for you.

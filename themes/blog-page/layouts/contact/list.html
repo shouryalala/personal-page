@@ -19,9 +19,9 @@
       <div class="col-lg-8 text-center">
         <div class="content mb-4">
           {{ range .Params.Categories }}
-          {{ if in . "IMP" }}<div class="text-primary"><b>{{substr . 6| title | humanize }}</b></div>
+          {{ if in . "IMP" }}<div class="text-primary"><b>{{substr . 6| title }}</b></div>
           {{ else if in . "LINK"}}<div class="text-primary"><a href="{{substr . 7}}" target="_blank">{{substr . 7 }}</a></div>
-          {{ else }}<div class="text-primary">{{ . | title | humanize }}</div>
+          {{ else }}<div class="text-primary">{{ . | title }}</div>
           {{ end }}
           {{ end }}
         </div>
