@@ -51,7 +51,7 @@ A computer vision model trained on various FMCG products and fine-tuned on relev
 - Attempted a simple image classifier by using transfer learning over an existing CNN model trained on consumer product images made available by [Stanford research](https://cvgl.stanford.edu/projects/lifted_struct/). ([Tensorflow](https://www.tensorflow.org/datasets/catalog/stanford_online_products) made it extremely simple to get started).
 - Model can be trained and refined on different verticals based on categories of items sold. This will improve accuracy and keep manual intervention to a minimum.
 
-![image](../../images/post/retail_pos.gif)
+<img loading="lazy" src="https://shourya.io/images/post/retail_pos.gif" alt="POC Walkthrough GIF" decoding="async">
 
 ` If core solution is accepted, this can further foray into becoming a SaaS, linked to other stakeholders like distributors or brands, extending this service into automated inventory fulfilment, store offers, credit-line etc.
 `

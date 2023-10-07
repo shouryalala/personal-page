@@ -118,3 +118,6 @@ link = "https://github.com/shouryalala"
 title = "linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://www.linkedin.com/in/shouryalala/"
+
+[markup.goldmark.renderer]
+  unsafe = true
