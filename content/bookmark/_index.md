@@ -13,16 +13,16 @@ categories:
   - "No rules rules - reed hastings"
   - "IMP - Steve jobs - Walter issacson"
   - "LINK - https://seedtoscale.com"
-  - "Chip war - Chris miller"
+  - "Chip war - Chris Miller"
   - "Soonish - Kelly Weinersmooth"
   - "Masters of scale - Reed Hastings"
-  - "Creative selection - Ken kocienda" 
+  - "Creative Selection - Ken Kocienda" 
   - "LINK - https://github.com/charlax/engineering-management"
   - "Almanack of Naval Ravikant"
   - "Phycology of money - Morgan Housel"
-  - "Innovation stack - Kim mckelvey"
+  - "Innovation Stack - Kim mckelvey"
   - "The unusual billionaires - Saurabh mukherjee"
-  - "Harsh realities - harsh Madiwala"
+  - "Harsh realities - Harsh Madiwala"
   - "LINK - https://github.com/92bondstreet/cto"
   - "Hitchhikers guide to the galaxy"
   - "IMP - Brief history of time"
@@ -48,4 +48,4 @@ categories:
 type : "contact"
 ---
 
- This is a partial collection of books, audiobooks, and permalinks that I felt were note-worthy and provided value to me. I found myself going back to many of these reads on several occasions and would recommend them to others as well. 
+ This is a partial collection of books, audiobooks, and permalinks that I felt were note-worthy and provided value. I found myself going back to many of these reads on several occasions and would recommend them to others as well. 
