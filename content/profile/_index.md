@@ -45,7 +45,7 @@ categories:
   - "LINK - https://writings.stephenwolfram.com"
 
 # type
-type : "bookmark"
+type : "profile"
 ---
 
  This is a partial collection of books, audiobooks, and permalinks that I felt were note-worthy and provided value. I found myself going back to many of these reads on several occasions and would recommend them to others as well. 
