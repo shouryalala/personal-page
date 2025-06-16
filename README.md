@@ -17,6 +17,3 @@ $ hugo server
 ## Result
 
 <h2 align="center"> <a target="_blank" href="https://shourya.io" rel="nofollow">Should be live here</a></h2>
-
-
-
