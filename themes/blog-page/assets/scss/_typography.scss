@@ -1,5 +1,4 @@
 /*  typography */
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
 
 body {
   line-height: 1.4;
@@ -21,9 +20,7 @@ p, .paragraph {
   color: $text-color-dark;
   font-weight: 700;
   line-height: 1.3 !important;
-  &:not([class^='ti-']) {
-    font-family: $primary-font;
-  }
+  font-family: $primary-font;
 }
 
 a{

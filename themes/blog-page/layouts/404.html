@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h1 class="h2 mb-3">Page not found</h1>
+        <p class="mb-4">The page you were looking for doesn't exist or has moved.</p>
+        <a href="{{ .Site.BaseURL }}" class="btn btn-outline-primary">Back to home</a>
+        <div class="content mt-5 text-left">
+          <p class="h6">Recent posts</p>
+          <ul>
+            {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

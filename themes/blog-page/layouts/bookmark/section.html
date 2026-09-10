@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<section class="section-sm pb-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h1 class="h2">{{ .Title | markdownify }}</h1>
+        <div class="content mb-4">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section-sm pb-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <ul class="list-unstyled content mb-4">
+          {{ range .Params.bookmarks }}
+          <li class="text-primary">
+            {{- if .url }}
+            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title | default .url }}</a>
+            {{- else }}
+            {{ if .favorite }}<b>{{ end }}{{ .title }}{{ with .author }} — {{ . }}{{ end }}{{ if .favorite }}</b>{{ end }}
+            {{- end }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

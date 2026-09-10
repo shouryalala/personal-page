@@ -1,19 +1,10 @@
-<h1 align=center>Shourya</h1> 
+# shourya.io
 
-<p align=center>Personal blog page. Forked from <a>https://github.com/gethugothemes/liva-hugo</a>. Supports blogs in MD which is great</p>
-
----
-
-## Local development
+Personal site of Shourya Lala, live at https://shourya.io.
 
 ```bash
-# clone the repository
-git clone https://github.com/shouryalala/personal-page.git
-
-# Start local dev server
-$ hugo server
+hugo server            # local dev
+hugo --gc --minify     # production build into public/
 ```
 
-## Result
-
-<h2 align="center"> <a target="_blank" href="https://shourya.io" rel="nofollow">Should be live here</a></h2>
+See [AGENTS.md](AGENTS.md) for structure, conventions and deployment notes.

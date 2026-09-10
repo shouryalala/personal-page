@@ -1,0 +1,30 @@
+# {{ .Site.Title }} — full content
+
+> {{ .Site.Params.description }}
+
+Canonical site: {{ .Site.BaseURL }}
+Summary index: {{ "llms.txt" | absURL }}
+
+## About
+
+{{ with .Site.GetPage "/about" }}{{ .Params.aboutme }}
+
+{{ .Params.getintouch }}{{ end }}
+
+{{ range (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+---
+
+# {{ .Title }}
+
+- URL: {{ .Permalink }}
+- Published: {{ .Date.Format "2 January 2006" }}
+{{- with .Params.categories }}
+- Category: {{ delimit . ", " }}
+{{- end }}
+{{- with .Params.tags }}
+- Tags: {{ delimit . ", " }}
+{{- end }}
+- Summary: {{ .Description }}
+
+{{ .RawContent }}
+{{ end }}
