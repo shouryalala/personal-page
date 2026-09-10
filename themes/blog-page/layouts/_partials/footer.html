@@ -1,0 +1,14 @@
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 border-top py-4 text-center">
+        <div class="row">
+          <div class="col-6 text-left">{{ .Site.Title }} © {{ now.Year }}</div>
+          <div class="col-6 text-right"><a href="https://twitter.com/{{ .Site.Params.twitterHandle }}" target="_blank" rel="noopener">@{{ .Site.Params.twitterHandle }}</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+{{ $script := resources.Get "js/script.js" | minify | fingerprint }}
+<script src="{{ $script.Permalink }}" defer></script>

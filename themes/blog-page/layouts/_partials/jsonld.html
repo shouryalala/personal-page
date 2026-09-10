@@ -1,0 +1,22 @@
+{{- $site := .Site }}
+{{- $personID := printf "%s#person" $site.BaseURL }}
+{{- $p := $site.Params.person }}
+{{- $sameAs := slice }}
+{{- range $site.Params.social }}{{ $sameAs = $sameAs | append .link }}{{ end }}
+{{- $person := dict "@type" "Person" "@id" $personID "name" $site.Title "url" $site.BaseURL "image" ($site.Params.ogImage | absURL) "description" $site.Params.description "jobTitle" $p.jobTitle "email" (printf "mailto:%s" $site.Params.email) "sameAs" $sameAs }}
+{{- $person = merge $person (dict "worksFor" (dict "@type" "Organization" "name" $p.worksFor "url" $p.worksForURL)) }}
+{{- $person = merge $person (dict "alumniOf" (dict "@type" "CollegeOrUniversity" "name" $p.alumniOf)) }}
+{{- $person = merge $person (dict "address" (dict "@type" "PostalAddress" "addressLocality" $p.city "addressCountry" $p.country)) }}
+{{- $website := dict "@type" "WebSite" "@id" (printf "%s#website" $site.BaseURL) "url" $site.BaseURL "name" $site.Title "description" $site.Params.description "inLanguage" "en" "publisher" (dict "@id" $personID) }}
+{{- $graph := slice $website $person }}
+{{- if .IsPage }}
+  {{- $img := $site.Params.ogImage }}{{ with .Params.image }}{{ $img = . }}{{ end }}
+  {{- $desc := .Description | default (.Summary | plainify) }}
+  {{- $article := dict "@type" "BlogPosting" "@id" .Permalink "mainEntityOfPage" .Permalink "url" .Permalink "headline" .Title "description" $desc "image" ($img | absURL) "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "author" (dict "@id" $personID) "publisher" (dict "@id" $personID) "inLanguage" "en" "wordCount" .WordCount }}
+  {{- with .Params.categories }}{{ $article = merge $article (dict "articleSection" (index . 0)) }}{{ end }}
+  {{- with .Params.tags }}{{ $article = merge $article (dict "keywords" (delimit . ", ")) }}{{ end }}
+  {{- $graph = $graph | append $article }}
+{{- else if eq .Section "profile" }}
+  {{- $graph = $graph | append (dict "@type" "ProfilePage" "@id" .Permalink "url" .Permalink "name" .Title "mainEntity" (dict "@id" $personID)) }}
+{{- end }}
+<script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@graph" $graph) | jsonify | safeJS }}</script>

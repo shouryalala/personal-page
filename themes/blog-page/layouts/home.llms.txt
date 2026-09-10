@@ -1,0 +1,29 @@
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+
+{{ with .Site.GetPage "/about" }}{{ .Params.aboutme }}
+
+{{ .Params.getintouch }}{{ end }}
+
+Contact: {{ .Site.Params.email }}
+{{- range .Site.Params.social }}
+{{ .title | title }}: {{ .link }}
+{{- end }}
+
+## Posts
+{{ range (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+- [{{ .Title }}]({{ .Permalink }}): {{ .Description }} ({{ .Date.Format "January 2006" }}){{ with .OutputFormats.Get "markdown" }} — Markdown: {{ .Permalink }}{{ end }}
+{{- end }}
+
+## Pages
+
+- [Profile]({{ "profile/" | absURL }}): Résumé — employment history, ventures, recognitions, skills and education.
+- [Bookmarks]({{ "bookmark/" | absURL }}): Books and links I recommend.
+
+## Optional
+
+- [Full text of all posts]({{ "llms-full.txt" | absURL }})
+- [RSS feed]({{ "index.xml" | absURL }})
+- [JSON index of posts]({{ "index.json" | absURL }})
+- [Sitemap]({{ "sitemap.xml" | absURL }})

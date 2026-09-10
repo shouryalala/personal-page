@@ -7,7 +7,7 @@ draft: false
 image: "images/featured-post/notes-on-starting-up.webp"
 
 # description
-description: "Hyperlocal Home Assistance by empowering the overlooked"
+description: "Chaotic notes scribbled over two years of starting up: on engineering velocity, feedback, hiring, teams and staying resilient as a founder."
 
 #subtitle
 subtitle: "Chaotic notes scribbled over the last 2 years"
@@ -16,11 +16,10 @@ subtitle: "Chaotic notes scribbled over the last 2 years"
 categories:
   - "Startup"
 tags:
-  - "Firebase"
-  - "Node.js"
-  - "Java"
-  - "Dart"
-  - "Hyperlocal"
+  - "Startup"
+  - "Founders"
+  - "Engineering"
+  - "Product"
 
 # post type
 type: "featured"
